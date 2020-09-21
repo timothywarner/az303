@@ -1,4 +1,4 @@
-# AZ-300/303 Session 2 Labs
+# AZ-303 Session 2 Labs
 
 ## Sweep Up the Shavings
 
@@ -32,7 +32,7 @@
 
   * Management scopes
   * RBAC
-    * Custom roles
+    * Custom roles  !!!!
   * Azure Policy
   * Azure Blueprints
 
@@ -48,6 +48,7 @@
     * Logic Apps
     * Functions
   * Containers
+    * DOCKERFILE syntax
     * Build image, deploy to ACR and ACI
     * AKS
 

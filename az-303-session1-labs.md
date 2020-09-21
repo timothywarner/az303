@@ -1,6 +1,20 @@
-# AZ-300/303 Session 1 Labs
+# AZ-303 Session 1 Labs
 
 ## Implement and Monitor Azure infrastructure
+
+### Identity
+
+  * Licensing
+  * Custom domains
+  * User security
+    * SSPR
+    * MFA
+      * Conditional Access
+      * Azure AD IdP
+  * Hybrid identity
+    * Synchronization options
+    * Password writeback
+    * Azure AD Connect Health
 
 ### Storage accounts
 
@@ -24,28 +38,14 @@
     * Scale sets
   * Storage
     * Azure Disk Encryption
-  * Networking
-    * VNet peering
 
 ### Automated deployment
 
   * Templates
     * Library
-  * Automation runbooks
-
-### Identity
-
-  * Multiple directories
-  * Custom domains
-  * User security
-    * SSPR
-    * MFA
-      * Conditional Access
-      * Azure AD IdP
-  * Hybrid identity
-    * Synchronization options
-    * Password writeback
-    * Azure AD Connect Health
+  * Config management
+    * Extensions
+    * Automation runbooks
 
 ### Monitoring
 
