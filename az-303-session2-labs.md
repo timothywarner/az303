@@ -26,7 +26,7 @@
     * Azure Traffic Manager
   * Security
     * NSGs
-    * Azure Bastion
+    * SERVICE ENDPOINTS!
 
 ### Governance
 
