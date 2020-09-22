@@ -2,8 +2,8 @@
 
 ## Sweep Up the Shavings
 
-  * SSPR
-  * MFA
+  * Bastion access
+  * Monitoring
 
 ## Implement Management and Security Solutions
 
@@ -64,4 +64,3 @@
   * Azure Cosmos DB
     * Choose an API
     * Configure replication
-
