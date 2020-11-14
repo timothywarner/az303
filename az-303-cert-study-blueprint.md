@@ -6,7 +6,7 @@
 * [MS Learning Exam Policies and FAQ](https://www.microsoft.com/en-us/learning/certification-exam-policies.aspx)
 * [Microsoft online testing with Pearson Vue](https://docs.microsoft.com/en-us/learn/certifications/online-exams)
 * [Certification Dashboard](https://aka.ms/certdashboard)
-* [Tim's online testing help video](https://www.youtube.com/watch?v=myf6r5nulj0&feature=youtu.be)
+* [Tim's online testing helper video](https://www.youtube.com/watch?v=myf6r5nulj0&feature=youtu.be)
 
 ### Conceptual learning
 
