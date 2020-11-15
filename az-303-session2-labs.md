@@ -2,8 +2,7 @@
 
 ## Sweep Up the Shavings
 
-  * Bastion access
-  * Monitoring
+  *
 
 ## Implement Management and Security Solutions
 
@@ -26,13 +25,14 @@
     * Azure Traffic Manager
   * Security
     * NSGs
-    * SERVICE ENDPOINTS!
+      * ASGs
+    * Service/private endpoints
 
 ### Governance
 
   * Management scopes
   * RBAC
-    * Custom roles  !!!!
+    * Custom roles
   * Azure Policy
   * Azure Blueprints
 
