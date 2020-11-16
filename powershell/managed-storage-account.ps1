@@ -1,8 +1,8 @@
 
 $resourceGroupName = 'OReilly'
 $storageAccountName = 'oreillygpstorage7044'
-$storageAccountKey = ''
-$keyVaultName = 'oreilly-key-vault001'
+$storageAccountKey = 'e1g77Q0HJhmyUkWZb3akN3VjrlqeBGTsgq2iK9XxpJWkVqbXzsnzQluXWFMdb+qy2rVDPnlSE8cK3FC/QJqwwA=='
+$keyVaultName = 'tim-keyvault-001'
 $keyVaultSpAppId = 'cfa8b339-82a2-471a-a3c9-0fc0be7a4093'
 
 # Authenticate your PowerShell session with Azure AD
@@ -11,7 +11,7 @@ $azureProfile = Connect-AzAccount
 # Get a reference to your Azure storage account
 $storageAccount = Get-AzStorageAccount -ResourceGroupName $resourceGroupName -StorageAccountName $storageAccountName
 
-# Assign RBAC role "Storage Account Key Operator Service Role" to Key Vault, limiting the access scope to your storage account.
+# In the storage account, Assign RBAC role "Storage Account Key Operator Service Role" to Key Vault
 New-AzRoleAssignment -ApplicationId $keyVaultSpAppId -RoleDefinitionName 'Storage Account Key Operator Service Role' -Scope $storageAccount.Id
 
 # Give your user principal access to all storage account permissions, on your Key Vault instance
