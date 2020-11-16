@@ -19,6 +19,7 @@
 * [Azure Docs](https://docs.microsoft.com/en-us/azure/)
 * [Azure SLAs](https://azure.microsoft.com/en-us/support/legal/sla/)
 * [Azure preview feature terms of use](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/)
+* [Use the ARM template reference](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-use-template-reference?tabs=CLI)
 
 ### Practice exams
 
