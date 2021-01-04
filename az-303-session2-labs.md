@@ -10,6 +10,7 @@
 
   * Azure Migrate
     * Virtual machines
+    * Supported OS versions, memory, disk limits
   * Azure VMs
     * Backup / recovery
     * Disaster recovery
@@ -17,7 +18,9 @@
 
 ### Network load balancing & security
 
-  * Load balancing
+  * VNets
+    * Peering
+    * Load balancing
     * Azure Load Balancer
     * Azure Application Gateway
     * Azure Firewall
@@ -33,6 +36,7 @@
   * Management scopes
   * RBAC
     * Custom roles
+    * Managed identity (169.254)
   * Azure Policy
   * Azure Blueprints
 
@@ -42,6 +46,7 @@
 
   * App Service
     * ASPs
+    * Certificate mutual auth
     * Managed Identities
     * Deployment slots
   * Serverless
@@ -60,7 +65,14 @@
     * Managed Instance
   * High availability options
   * Publish process
+  * Pools and moving DBs
+  * Basic SQL CREATE TABLE order
 
   * Azure Cosmos DB
     * Choose an API
     * Configure replication
+    * SQL API
+      * Partition key
+        * New PK, new container
+      * SQL syntax
+      * EnableCrossPartitionQuery
