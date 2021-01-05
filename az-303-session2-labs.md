@@ -19,18 +19,18 @@
 ### Network load balancing & security
 
   * VNets
-    * Peering
+    * Security
+      * NSGs
+        * ASGs
+    * Service/private endpoints* Peering
       * Connectivity paths
     * Load balancing
-    * Azure Load Balancer
-    * Azure Application Gateway
+      * Azure Load Balancer
+      * Azure Application Gateway
+      * Azure Front Door
+      * Azure Traffic Manager
     * Azure Firewall
-    * Azure Front Door
-    * Azure Traffic Manager
-  * Security
-    * NSGs
-      * ASGs
-    * Service/private endpoints
+      * Firewall Manager
 
 ### Governance
 

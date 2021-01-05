@@ -16,10 +16,12 @@
 * [Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/)
 * [Azure Application Architecture Guide](https://docs.microsoft.com/en-us/azure/architecture/guide/)
 * [Azure Solutions Architectures](https://azure.microsoft.com/en-us/solutions/architecture/)
+* [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/)
 * [Azure Docs](https://docs.microsoft.com/en-us/azure/)
 * [Azure SLAs](https://azure.microsoft.com/en-us/support/legal/sla/)
 * [Azure preview feature terms of use](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/)
 * [Use the ARM template reference](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-use-template-reference?tabs=CLI)
+* [Tim's Deploying ARM Templates Study Guide](https://timwinfo-my.sharepoint.com/:x:/g/personal/tim_timw_info/EQRooL1BhnRMjaIx6WEovRYBDXbzHOI1CrtpNls3zesDHw?rtime=Dw6bWK-x2Eg)
 
 ### Practice exams
 
@@ -34,4 +36,3 @@
 * [A Cloud Guru/Linux Academy](https://acloud.guru/learn/eb474ca7-9085-47a3-a4fb-a516b61e11db)
 * [Cloud Academy](https://cloudacademy.com/learning-paths/az-303-exam-preparation-technologies-for-microsoft-azure-architects-1720/)
 * [Pluralsight](https://www.pluralsight.com/role-iq/microsoft-azure-solution-architect)
-

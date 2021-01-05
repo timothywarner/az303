@@ -1,5 +1,30 @@
 # AZ-303 Session 1 Labs
 
+## [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/)
+
+* Cost Optimization
+  * Build-Measure-Learn
+  * Develop the optimal cost model
+  * Budgets and Alerts
+  * Advisor
+* Operational Excellence
+  * Monitoring and Diagnostics
+* Performance Efficiency
+  * Vertical and horizontal scaling
+  * Redundancy (CDN)
+  * Identify and resolve bottlenecks
+* Reliability
+  * High availability
+  * Data replication
+  * Fault handling
+* Security
+  * Full application lifecycle
+  * Identity management
+  * RBAC
+  * Application security
+    * Azure Defender
+  * Data sovereignty & encryption
+
 ## Implement and Monitor Azure infrastructure
 
 ### Identity
@@ -39,7 +64,6 @@
   * duplicate detection
   * Message ordering
 
-
 ### Virtual machines
 
   * Templates
@@ -56,9 +80,6 @@
     * Performance stats / SLAs
     * Azure Disk Encryption
   * Scale set scaling rules
-
-### Automated deployment
-
   * Templates
     * Library
     * DependsOn
