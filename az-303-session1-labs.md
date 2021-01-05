@@ -5,6 +5,7 @@
 ### Identity
 
   * Licensing
+    * SKU differences
   * Custom domains
   * Cost Management
   * User security
@@ -12,6 +13,7 @@
     * MFA
       * Conditional Access
       * Azure AD IdP
+      * Azure AD PIM
   * Hybrid identity
     * Synchronization options
     * Synch Rules Editor
@@ -51,6 +53,7 @@
     * Availability zones/sets
     * Scale sets
   * Storage
+    * Performance stats / SLAs
     * Azure Disk Encryption
   * Scale set scaling rules
 

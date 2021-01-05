@@ -20,6 +20,7 @@
 
   * VNets
     * Peering
+      * Connectivity paths
     * Load balancing
     * Azure Load Balancer
     * Azure Application Gateway
@@ -36,6 +37,7 @@
   * Management scopes
   * RBAC
     * Custom roles
+      * JSON
     * Managed identity (169.254)
   * Azure Policy
   * Azure Blueprints
@@ -46,6 +48,7 @@
 
   * App Service
     * ASPs
+      * Pricing plans and limits
     * Certificate mutual auth
     * Managed Identities
     * Deployment slots
@@ -56,6 +59,7 @@
     * DOCKERFILE syntax
     * Build image, deploy to ACR and ACI
     * AKS
+      * kubectl apply manifest.yaml
 
 ## Data Platforms
 
