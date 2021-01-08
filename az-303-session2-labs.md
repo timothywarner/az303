@@ -2,7 +2,10 @@
 
 ## Sweep Up the Shavings
 
-  *
+  * VS Code tutorial
+  * TLS cert with blob service
+  * microsoft.directory/applications/createAsOwner
+  * ARM template - SAS Token
 
 ## Implement Management and Security Solutions
 
