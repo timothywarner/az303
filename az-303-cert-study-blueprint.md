@@ -22,6 +22,7 @@
 * [Azure preview feature terms of use](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/)
 * [Use the ARM template reference](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-use-template-reference?tabs=CLI)
 * [Tim's Deploying ARM Templates Study Guide](https://timwinfo-my.sharepoint.com/:x:/g/personal/tim_timw_info/EQRooL1BhnRMjaIx6WEovRYBDXbzHOI1CrtpNls3zesDHw?rtime=Dw6bWK-x2Eg)
+* [Tim's Recommended Visual Studio Code Tutorial](https://vscode.pro/)
 
 ### Practice exams
 
