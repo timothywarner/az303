@@ -1,55 +1,87 @@
 # AZ-303 Topics
 
-## Implement and monitor Azure Infrastructure
+## SESSION 01
 
-* Log Analytics & KQL
-* Enable diagnostic settings
-* ARM template syntax
-* Azure Monitor alerts
-* Availability zones / sets / SLA values
-* VNet modify address space
-* App Gateway all options
-* VNet peering
-* VM scale set creation
-* S2S VPN setup
-* NICs and NSGs
-*
-*
+### Implement and monitor Azure Infrastructure
 
-## Implement Governance and Security Solutions
+* Virtual networks
+  * ARM template deployment
+  * Modify address space
+  * NSGs
+  * Peerings
+  * S2S VPN
 
-* Azure Advisor
-* Storage Threat Protecion
-* Built-in RBAC roles
-* Azure Policy
-* Azure Bastion
-* Cost Management budgets
-* Resource firewalls
-* Service / private endpoints
-*
+* Virtual machines
+  * High availability (AS, AZ) + SLAs
+  * NICs and TCP/IP
+  * Bastion
+  * ADE
+  * Name resolution , private DNS zone
 
-## Implement Cloud Applications
+* Load balancing
+  * VM scale sets
+  * Load balancer
+  * App Gateway
 
-* Azure AD Connect credentials / staging mode
-* Sync Rules editor
-* App Service & App Insights
-* ACR image management
+* Monitoring
+  * Enable diagnostic settings
+  * Alerts
+  * Log Analytics & KQL
 
+### Implement Cloud Applications
 
-## Implement and manage data platforms
+* Azure AD
+  * SSPR & MFA
+  * AAD Connect
+    * Staging mode
+    * Sync Rules Editor
 
-* Storage account replication
-* Dist transacations vm vs managed instance
-* Cosmos SQL queries
-* Cosmos resource model
-* Service bus queue options
-* Azure SQL elastic pools
+* Container
+  * Dockerfile build syntax
+  * ACR & Azure CLI
+  * AKS & kubectl
 
+* App Service
+  * Application Insights
+  * Autoscaling rules
 
+## SESSION 02
 
+### Implement Governance and Security Solutions
 
-## Certification Preparation
+* Authentication
+  * Custom domain name
+  * Azure MFA
+  * Conditional Access
+* Authorization
+  * Built-in and custom RBAC
+  * PIM access review
+  * Managed identity
+* Governance
+  * Azure Policy
+  * Cost Management budgets
+  * Azure Key Vault
+
+### Implement and manage data platforms
+
+* Storage accounts
+  * Replication
+  * Data Lake storage
+  * Threat protection - Azure Defender
+* Azure SQL
+  * Elastic pools
+  * Distributed transactions - VM vs managed instance
+  * Azure SQL failover groups
+  * Azure SQL T-SQL DDL statements
+* Cosmos SQL
+  * Resource model
+  * SQL queries
+* Availabiltiy
+  * Service and private endpoints
+
+### Certification Preparation
 
 * practice exam advice
 * hands-on experience advice
-*
+* online testing process
+* cert next steps
