@@ -12,6 +12,7 @@
             "type": "int",
             "minValue": 2,
             "maxValue": 5,
+            "defaultValue": 2,
             "metadata": {
                 "description": "Number of VMs to deploy, limit 5 since this sample is using a single storage account"
             }
@@ -57,15 +58,36 @@
             "metadata": {
                 "description": "description"
             }
+        },
+        "vNetName": {
+            "type": "string",
+            "defaultValue": "oreilly-vnet"
+        },
+        "addressRange": {
+            "type": "string",
+            "defaultValue":"10.10.0.0/16"
+        },
+        "subnetName": {
+            "type": "string",
+            "defaultValue":"default"
+        },
+        "subnetPrefix": {
+            "type": "string",
+            "defaultValue": "10.10.1.0/24"
+        },
+        "avSetName": {
+            "type": "string",
+            "defaultValue": "tw-avset"
+        },
+        "nsgName": {
+            "type": "string",
+            "defaultValue":"oreilly-nsg2"
         }
     },
     "variables": {
-        "virtualNetworkName": "oreilly-vnet",
-        "addressPrefix": "10.10.0.0/16",
-        "subnet1Name": "web",
-        "subnet1Prefix": "10.10.1.0/24",
-        "subnet1Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'),variables('subnet1Name'))]",
-        "availabilitySetName": "myAvSet",
+        "addressPrefix": "[parameters('addressRange')]",
+        "subnet1Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('vNetName'),parameters('subnetName'))]",
+        "availabilitySetName": "[parameters('avSetName')]",
         "imageReference": {
             "Ubuntu": {
                 "publisher": "Canonical",
@@ -80,7 +102,7 @@
                 "version": "latest"
             }
         },
-        "networkSecurityGroupName": "oreilly-default-nsg",
+        "networkSecurityGroupName": "[parameters('nsgName')]",
         "nsgOsPort": {
             "Ubuntu": "22",
             "Windows": "3389"
@@ -115,7 +137,7 @@
             "comments": "Default Network Security Group for template",
             "type": "Microsoft.Network/networkSecurityGroups",
             "apiVersion": "2020-05-01",
-            "name": "[variables('networkSecurityGroupName')]",
+            "name": "[parameters('nsgName')]",
             "location": "[parameters('location')]",
             "properties": {
                 "securityRules": [
@@ -137,11 +159,11 @@
         },
         {
             "type": "Microsoft.Network/virtualNetworks",
-            "name": "[variables('virtualNetworkName')]",
+            "name": "[parameters('vNetName')]",
             "apiVersion": "2020-05-01",
             "location": "[parameters('location')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('nsgName'))]"
             ],
             "properties": {
                 "addressSpace": {
@@ -151,16 +173,16 @@
                 },
                 "subnets": [
                     {
-                        "name": "[variables('subnet1Name')]",
+                        "name": "[parameters('subnetName')]",
                         "properties": {
-                            "addressPrefix": "[variables('subnet1Prefix')]",
+                            "addressPrefix": "[parameters('subnetPrefix')]",
                             "networkSecurityGroup": {
-                                "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
+                                "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('nsgName'))]"
                             }
                         }
                     },
                     {
-                        "name": "workload",
+                        "name": "[parameters('vNetName')]",
                         "properties": {
                             "addressPrefix": "10.10.2.0/24"
                             }
@@ -178,7 +200,7 @@
                 "count": "[parameters('numberOfInstances')]"
             },
             "dependsOn": [
-                "[variables('virtualNetworkName')]"
+                "[parameters('vNetName')]"
             ],
             "properties": {
                 "ipConfigurations": [

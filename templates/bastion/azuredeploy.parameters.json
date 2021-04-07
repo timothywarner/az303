@@ -3,7 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "bastion-host-name": {
-            "value": "oreilly-bastion1"
+            "value": "oreilly-vnet-bastion"
+        },
+        "vnet-name": {
+            "value": "oreilly-vnet"
+        },
+        "vnet-ip-prefix": {
+            "value": "10.10.0.0/16"
+        },
+        "bastion-subnet-ip-prefix": {
+            "value": "10.10.3.0/24"
         }
     }
 }

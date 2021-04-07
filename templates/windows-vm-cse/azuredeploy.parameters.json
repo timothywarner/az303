@@ -1,12 +1,10 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
-
     "parameters": {
         "adminUsername": {
             "value": "tim"
         },
-
         "adminPassword": {
             "reference": {
                 "keyVault": {
@@ -15,16 +13,36 @@
                 "secretName": "timvmpw"
             }
         },
-
+        "dnsLabelPrefix": {
+            "value": "twvm1dns"
+        },
+        "publicIpName": {
+            "value": "twaz304pip1"
+        },
+        "OSVersion": {
+            "value": "2019-Datacenter"
+        },
+        "vmSize": {
+            "value": "Standard_B2ms"
+        },
         "vmName": {
             "value": "simple-vm"
         },
-        "vmSize": {
-            "value": "Standard_D2_v3"
+        "nicPrefix": {
+            "value": "vmnicprefix"
         },
-
-        "dnsLabelPrefix": {
-            "value": "twvm-pip"
+        "vnetName": {
+            "value": "oreilly-vnet"
+        },
+        "vnetAddressPrefix": {
+            "value": "10.10.0.0/16"
+        },
+        "subnetName": {
+            "value": "workload"
+        },
+        "subnetPrefix": {
+            "value": "10.10.2.0/24"
         }
+
     }
 }

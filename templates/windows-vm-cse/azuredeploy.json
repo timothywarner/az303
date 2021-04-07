@@ -76,7 +76,13 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_D2_v3",
+      "defaultValue": "Standard_B2ms",
+      "allowedValues": [
+        "Standard_B2ms",
+        "Standard_D2s_v4",
+        "Standard_B4ms",
+        "Standard_D4s_v4"
+      ],
       "metadata": {
         "description": "Size of the virtual machine."
       }
@@ -94,15 +100,45 @@
       "metadata": {
         "description": "Name of the virtual machine."
       }
+    },
+    "nicPrefix": {
+      "type": "string",
+      "metadata": {
+        "description": "description"
+      }
+    },
+    "vnetName": {
+      "type": "string",
+      "metadata": {
+        "description": "description"
+      }
+    },
+    "vnetAddressPrefix": {
+      "type": "string",
+      "metadata": {
+        "description": "description"
+      }
+    },
+    "subnetName": {
+      "type": "string",
+      "metadata": {
+        "description": "description"
+      }
+    },
+    "subnetPrefix": {
+      "type": "string",
+      "metadata": {
+        "description": "description"
+      }
     }
   },
   "variables": {
     "storageAccountName": "[concat('bootdiags', uniquestring(resourceGroup().id))]",
-    "nicName": "myVMNic",
-    "addressPrefix": "10.0.0.0/16",
-    "subnetName": "Subnet",
-    "subnetPrefix": "10.0.0.0/24",
-    "virtualNetworkName": "MyVNET",
+    "nicName": "[concat(parameters('nicPrefix'), '-nic')]",
+    "addressPrefix": "[parameters('vnetAddressPrefix')]",
+    "subnetName": "[parameters('subnetName')]",
+    "subnetPrefix": "[parameters('subnetPrefix')]",
+    "virtualNetworkName": "[parameters('vnetName')]",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "networkSecurityGroupName": "default-NSG"
   },
@@ -237,14 +273,17 @@
           "osDisk": {
             "createOption": "FromImage",
             "managedDisk": {
-              "storageAccountType": "StandardSSD_LRS"
+              "storageAccountType": "Standard_LRS"
             }
           },
           "dataDisks": [
             {
               "diskSizeGB": 1023,
               "lun": 0,
-              "createOption": "Empty"
+              "createOption": "Empty",
+              "managedDisk": {
+                "storageAccountType": "Standard_LRS"
+              }
             }
           ]
         },
