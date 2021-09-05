@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://github.com/timothywarner/az303">
     <!-- Please provide path to your logo here -->
-    <img src="docs/images/az303-cover.svg" alt="Logo" width="400" />
+    <img src="docs/images/az303-cover.png" alt="Logo" width="400" />
   </a>
 </h1>
 
@@ -123,7 +123,7 @@ Thank you for being involved!
 
 The original setup of this repository is by [Tim Warner](https://github.com/timothywarner).
 
-For a full list of all authors and contributors, check [the contributor's page](https://github.com/timothywarner/az303/contributors).
+For a full list of all authors and contributors, check [the contributors page](https://github.com/timothywarner/az303/contributors).
 
 ## Security
 
