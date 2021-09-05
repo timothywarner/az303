@@ -9,6 +9,8 @@
 * [Tim's online testing helper video](https://www.youtube.com/watch?v=myf6r5nulj0&feature=youtu.be)
 * [ Tim's exam registration helper video](https://www.youtube.com/watch?v=FOFWbSYbbVI)
 * [Microsoft Learn blog](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog)
+* Pearson VUE Grievance
+* Microsoft Policies and FAQs
 
 ### Conceptual learning
 
@@ -28,12 +30,22 @@
 * [Adam Marczak ARM tutorials](https://www.youtube.com/watch?v=Ge_Sp-1lWZ4&t=916s)
 * [Tim's Recommended Visual Studio Code Tutorial](https://vscode.pro/)
 
-### Practice exams
+### Building Your Toolset
 
-* [MS Learning offers](https://www.microsoft.com/en-us/learning/offers.aspx)
-* [MeasureUp AZ-303](https://www.measureup.com/official-practice-test-az-303-microsoft-azure-architect-technologies.html)
-* [Whizlabs AZ-303](https://www.whizlabs.com/microsoft-azure-certification-az-303/)
-* [Tim's practice exam comparison](https://www.youtube.com/watch?v=_aH4DbpcJWA)
+* Visual Studio Code
+* Extensions
+  * PowerShell
+  * Azure Sign-in
+  * ARM Tools
+  * Azure CLI Tools
+  * Bicep
+* PowerShell 7
+* Azure PowerShell
+* Azure Bicep
+* Azure CLI
+* Azure Storage Explorer
+* Azure Data Studio
+* AzCopy.exe
 
 ### Hands-on skill development
 
@@ -42,3 +54,10 @@
 * [A Cloud Guru](https://acloud.guru/learn/eb474ca7-9085-47a3-a4fb-a516b61e11db)
 * [Cloud Academy](https://cloudacademy.com/learning-paths/az-303-exam-preparation-technologies-for-microsoft-azure-architects-1720/)
 * [Pluralsight](https://www.pluralsight.com/role-iq/microsoft-azure-solution-architect)
+
+### Practice exams
+
+* [MS Learning offers](https://www.microsoft.com/en-us/learning/offers.aspx)
+* [MeasureUp AZ-303](https://www.measureup.com/official-practice-test-az-303-microsoft-azure-architect-technologies.html)
+* [Whizlabs AZ-303](https://www.whizlabs.com/microsoft-azure-certification-az-303/)
+* [Tim's practice exam comparison](https://www.youtube.com/watch?v=_aH4DbpcJWA)
