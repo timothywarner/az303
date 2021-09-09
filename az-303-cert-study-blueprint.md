@@ -48,6 +48,12 @@
 * A[zure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
 * [AzCopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10)
 
+
+## Bicep stuff
+
+* [Bicep Playground](https://bicepdemo.z22.web.core.windows.net/)
+* T[im's Frankenstein project](https://github.com/timothywarner/frankenstein)
+
 ## Hands-on skill development
 
 * [Microsoft Learn](https://docs.microsoft.com/en-us/learn/browse/?roles=solution-architect)
@@ -55,6 +61,7 @@
 * [A Cloud Guru](https://acloud.guru/learn/eb474ca7-9085-47a3-a4fb-a516b61e11db)
 * [Cloud Academy](https://cloudacademy.com/learning-paths/az-303-exam-preparation-technologies-for-microsoft-azure-architects-1720/)
 * [Pluralsight](https://www.pluralsight.com/role-iq/microsoft-azure-solution-architect)
+* [Azure Log Analytics Query Playground](https://portal.loganalytics.io/demo)
 
 ## Practice exams
 
