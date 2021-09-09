@@ -30,12 +30,6 @@
 
 ### Implement Cloud Applications
 
-* Azure AD
-  * SSPR & MFA
-  * AAD Connect
-    * Staging mode
-    * Sync Rules Editor
-
 * Container
   * Dockerfile build syntax
   * ACR & Azure CLI
@@ -49,6 +43,11 @@
 
 ### Implement Governance and Security Solutions
 
+* Azure AD
+  * SSPR & MFA
+  * AAD Connect
+    * Staging mode
+    * Sync Rules Editor
 * Authentication
   * Custom domain name
   * Azure MFA
@@ -76,7 +75,7 @@
 * Cosmos SQL
   * Resource model
   * SQL queries
-* Availabiltiy
+* Availability
   * Service and private endpoints
 
 ### Certification Preparation
