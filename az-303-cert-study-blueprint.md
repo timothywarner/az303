@@ -48,7 +48,6 @@
 * A[zure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
 * [AzCopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10)
 
-
 ## Bicep stuff
 
 * [Bicep Playground](https://bicepdemo.z22.web.core.windows.net/)
