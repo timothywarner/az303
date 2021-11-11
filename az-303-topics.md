@@ -6,6 +6,10 @@
 
 * Virtual networks
   * ARM template deployment
+    * Dependencies
+    * Linked
+    * Bicep
+    * Copy index
   * Modify address space
   * NSGs
   * Peerings
@@ -38,6 +42,32 @@
 * App Service
   * Application Insights
   * Autoscaling rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## SESSION 02
 
