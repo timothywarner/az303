@@ -10,6 +10,7 @@
     * Linked
     * Bicep
     * Copy index
+    * Key vault integration
   * Modify address space
   * NSGs
   * Peerings
